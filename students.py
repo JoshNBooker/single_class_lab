@@ -1,15 +1,14 @@
 class students:
 
-    def __init__(self, student_name, student_cohort, favourite_language):
+    def __init__(self, student_name, student_cohort):
         self.name = student_name
         self.cohort = student_cohort
-        self.language = favourite_language
 
     def talk(self):
         print("Hi, I'm " + self.name + " " + "and I can talk!")
 
-    def say_favourite_language(self):
-        return("I love ") + self.language
+    def say_favourite_language(self,language):
+        return("I love ") + language
     
 class sports_team:
     
